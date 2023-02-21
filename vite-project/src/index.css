@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: #f8f8f8;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.header {
+  color: #cdcdcd;
+}
+
+
+.inputWrapper {
+  display: flex;
+  height: 20px;
+  z-index: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.dragHandle {
+  background: transparent;
+  width: 14px;
+  height: 100%;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  pointer-events: all;
+}
+
+.input {
+  border: none;
+  padding: 0 2px;
+  border-radius: 1px;
+  font-weight: 700;
+  background: transparent;
+  height: 100%;
+  color: #ffffff;
+  pointer-events: none;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+  background: rgb(255, 255, 255);
+  pointer-events: all;
+}
